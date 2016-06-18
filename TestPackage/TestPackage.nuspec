@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>TestPackage</id>
+        <version>1.0.0</version>
+        <authors>oren</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>My package description.</description>
+        <serviceable>false</serviceable>
+    </metadata>
+    <files>
+        <file src="netstandard10.dll" target="lib\netstandard1.0\netstandard10.dll" />
+        <file src="netstandard13.dll" target="lib\netstandard1.3\netstandard13.dll" />
+        <file src="pcl328.dll" target="lib\portable-net4+sl5+win8+wp8+wpa81\pcl328.dll" />
+    </files>
+</package>
